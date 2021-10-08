@@ -1,32 +1,3 @@
-PW = gg.prompt({
-    "ᴋᴜʟʟᴀɴɪᴄɪ ᴀᴅɪ: ",
-    "sɪғʀᴇ: "
-  }, {
-    [1] = "text"
-    [2] = "text"
-  }, {
-    [1] = "text",
-    [2] = "text"
-  })
-  if not PW then
-    return
-  end
-  if PW[1] == "a" then
-    gg.alert("ᴋᴜʟʟᴀɴɪᴄɪ ᴀᴅɪ ᴅᴏɢʀᴜ✅")
-  else
-    gg.sleep(500)
-    gg.setVisible(true)
-    print("𝗬𝗮𝗻𝗹𝗶𝘀 𝗞𝘂𝗹𝗹𝗮𝗻𝗶𝗰𝗶 𝗔𝗱𝗶❗\n\nʟᴜᴛғᴇɴ ᴛᴇʟᴇɢʀᴀᴍ ᴋᴀɴᴀʟɪᴍɪᴢᴀ ɢᴇʟᴇʀᴇᴋ ɢᴜɴᴄᴇʟ sɪғʀᴇʏɪ ᴀʟɪɴɪᴢ !\nᴛᴇʟᴇɢʀᴀᴍ : @ᴊʏʀᴏxᴘᴜʙɢ")
-    return
-  end
-    if PW[2] == "a" then
-    gg.alert("sɪғʀᴇ ᴅᴏɢʀᴜ✅")
-  else
-    gg.sleep(500)
-    gg.setVisible(true)
-    print("𝗬𝗮𝗻𝗹𝗶𝘀 𝗦𝗶𝗳𝗿𝗲❗\n\nʟᴜᴛғᴇɴ ᴛᴇʟᴇɢʀᴀᴍ ᴋᴀɴᴀʟɪᴍɪᴢᴀ ɢᴇʟᴇʀᴇᴋ ɢᴜɴᴄᴇʟ sɪғʀᴇʏɪ ᴀʟɪɴɪᴢ !\nᴛᴇʟᴇɢʀᴀᴍ : @ᴊʏʀᴏxᴘᴜʙɢ")
-    return
-  end
 
 
 gg.toast("\n『")
